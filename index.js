@@ -73,7 +73,7 @@ app.post("/upload", upload.single('file'), function(req, res){
         res.json({
             message: "Video converted to HLS format",
             videoUrl: videoUrl,
-            lessonId: lessonId
+            lessonId: lessionId
         })
     })
 
